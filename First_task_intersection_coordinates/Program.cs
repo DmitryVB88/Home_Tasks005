@@ -1,6 +1,7 @@
 ﻿// Найти точку пересечения двух прямых заданных уравнением 
 // y = k1 * x + b1, y = k2 * x + b2, b1 k1 и b2 и k2 заданы.
 Console.Clear();
+
 Console.WriteLine("Для ввода коорднат принимаются только целые числа!");
 Console.Write("Введите координату k1 = ");
 int k1 = int.Parse(Console.ReadLine()?? "");
